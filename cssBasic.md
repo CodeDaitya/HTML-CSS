@@ -117,4 +117,20 @@ absolute path to that directory, or it's relative path can be used.
 </head>
 ```  
 
-Above code references the CSS file in the sub-directory of the Root directory, style using it's path relative to the root directory.
+Above code references the CSS file in the sub-directory of the Root directory, style using it's path relative to the root directory.  
+
+##CSS Resets  
+
+Every web browser has its own default styles for different elements. They all render headings, paragraphs, lists, and so forth may be different from
+each other. To ensure cross-browser compatibility, CSS resets have become widely used.  
+
+CSS resets take every common HTML element with a predefined style and provide one unified style for all browsers. These resets generally involve
+removing any sizing, margins, paddings, or additional styles and toning these values down. Because CSS cascades from top to bottom our reset needs to
+be at the very top of our style sheet. Doing so ensures that those styles are read first and that all of the different web browsers are working from
+a common baseline.
+
+There are a bunch of different resets available to use, all of which have their own fortes. One of the most popular resets is [Eric Meyer’s](http://meyerweb.com/eric/tools/css/reset/) reset.
+
+There is also [Normalize.css](http://necolas.github.io/normalize.css/), created by Nicolas Gallagher. Normalize.css focuses not on using a hard reset
+for all common elements, but instead on setting common styles for these elements. It requires a stronger understanding of CSS, as well as awareness
+of what you’d like your styles to be.
