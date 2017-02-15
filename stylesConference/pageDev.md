@@ -28,7 +28,7 @@ directory.
 3. From the `index.html` seen in the browser, it is clear that `<h1>` and `<p>` elements have default CSS styles. Using [Eric Meyer's reset](https://github.com/CodeDaitya/HTML-CSS/blob/master/cssBasic.md#css-reset)
 we can remove a these styles so that they can all be styled from the same base.
 
-```css
+ ```css
 /* http://meyerweb.com/eric/tools/css/reset/ 2. v2.0 | 20110126
   License: none (public domain)
 */
@@ -76,8 +76,8 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-```
-
+```  
+  
 4. Now link the `style.css` file with the HTML file. Open `index.html` in a text eidtor and link the CSS file using `<link>` within our `<head>`
 element just after `<title>`.
 5. Add a `rel` attribute with a value `stylesheet` in the `<link>` elements to specify the relation of the HTML file with the file being linked.
