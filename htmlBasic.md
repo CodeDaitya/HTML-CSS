@@ -28,8 +28,10 @@ The content that falls between the pair of tags, is that content of that element
 
 Some elements have all their content within a single tag. They don't need a closing tag and thus are _self-closing_.
 
-> <br> <embed> <hr> <img> <input> <wbr>
-> <meta> <param> <source> <link>
+```html
+<br> <embed> <hr> <img> <input> <wbr>
+<meta> <param> <source> <link>
+```
 
 ### Attributes
 
