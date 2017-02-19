@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Form</title>
+  </head>
+  <body>
+    <h1>Please Enter Your Details For Our Dating Website!</h1>
+    <form action="http://ihome.ust.hk/~rossiter/cgi-bin/show_everything.php" method="post" enctype="multipart/form-data">
+      <fieldset>
+        <legend>Your Face</legend>
+        <label for="picture">Your image: </label>
+        <input id="picture" type="file" value="Choose image" name="image" > No file chosen<br>
+        <label for="preview">Image preview: </label>
+        <img id="preview">
+      </fieldset>
+      <fieldset>
+        <legend>Your General Details</legend>
+        <label for="name">Name: </label>
+        <input id="name" type="text" placeholder="Your full name" name="name" required><br>
+        <label for="gender">Gender: </label>
+        <input id="gender" type="radio" value="male" name="gender" required>Male
+        <input id="gender" type="radio" value="female" name="gender" required>Female<br>
+        <label for="age">Age: </label>
+        <input id="age" type="number" min="18" value="18" name="age" required><br>
+        <label for="dob">Date of birth: </label>
+        <input id="dob" type="date"><br>
+        <label for="color">Favorite color: </label>
+        <input id="color" type="color" value="black" name="color"><br>
+        <label for="country">Which country: </label>
+        <select id="country" name="country" required>
+          <<option value="No selection">Select</option>
+          <option value="Afghanistan">
+          <option value="Albania">
+          <option value="Algeria">
+          <option value="Andorra">
+          <option value="Angola">
+        </select>
+      </fieldset>
+      <fieldset>
+        <legend>Your Indicators</legend>
+        <label for="height">Height: </label>
+        Short<input id="height" type="range" name="height" min="0" max="100">Long<br>
+        <label for="salary">Salary: </label>
+        Rich<input id="height" type="range" name="salary" min="0" max="100">Rich
+      </fieldset>
+      <fieldset>
+        <legend>Your Contact Information</legend>
+        <label for="email">Email: </label>
+        <input id="email" type="email" name="email" required><br>
+        <label for="mobile">Mobile: </lable>
+        <input id="mobile" type="tel" name="mobile"><br>
+        <label for="address">Address: </lable>
+        <input id="address" type="textarea" name="address" rows="10" columns="30"><br>
+        <label for="contactmeth" >Method to contact you: </label>
+        <input id="contactmeth" type="checkbox" name="email">Email
+        <input id="contactmeth" type="checkbox" name="whatsapp">Whatsapp
+        <input id="contactmeth" type="checkbox" name="in-app">In-app chat
+      </fieldset>
+      <input type="submit" name="submit" value="Submit"></button>
+    </form>
+  </body>
+</html>
