@@ -1,0 +1,24 @@
+.responsive{
+  display: block;
+  width: 100%;
+  border: 1px solid black;
+  background: orangered;
+}
+
+@media (min-width: 750px){
+  .responsive{
+    display: inline-block;;
+    width: 300px;
+    border: 1px solid black;
+    background: cyan;
+  }
+}
+
+@media (min-width: 1000px){
+  .responsive{
+    display: inline-block;
+    width: 500px;
+    border: 1px solid black;
+    background: magenta;
+  }
+}
