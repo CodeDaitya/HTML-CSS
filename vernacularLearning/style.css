@@ -1,0 +1,27 @@
+div{
+  padding: 5px;
+}
+table,th,td{
+  border : 1px solid black;
+}
+th,td{
+  text-align: left;
+  padding: 5px;
+}
+label{
+  text-align: right;
+}
+.inl{
+  display: inline;
+}
+.inlb{
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+.hw{
+  width: 48.5%;
+}
+.fw{
+  width: 18.5%;
+}
