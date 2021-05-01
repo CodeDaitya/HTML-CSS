@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Footer</title>
+    <style>
+      html {
+        font-family: avenir;
+        margin: 2em;
+        font-size: 180%;
+        line-height: 1.5;
+      }
+
+      /* */
+
+      footer {
+        font-size: 70%;
+      }
+      a {
+        text-decoration-color: teal;
+        text-decoration-thickness: 1px;
+        text-underline-offset: 3px;
+        color: black;
+      }
+      a:hover {
+        text-decoration: underline;
+        text-decoration-color: cyan;
+        text-decoration-thickness: 2px;
+        text-underline-offset: 2px;
+      }
+      a::after {
+        content: "|";
+        padding-left: 0.8em;
+        padding-right: 0.4em;
+        color: teal;
+      }
+      a:last-child::after {
+        content: "";
+      }
+    </style>
+  </head>
+  <body></body>
+</html>
